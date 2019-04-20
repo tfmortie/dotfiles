@@ -5,7 +5,7 @@
 1) Clone repo to your home directory
 
 ```
-git clone https://github.com/tfmortie/vim.git
+git clone https://github.com/tfmortie/dotfiles.git
 ```
 
 2) Create symbolic links and you're done!

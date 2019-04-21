@@ -1,5 +1,5 @@
 " 
-" Vim settings for @mscoutermarsh
+" VIM settings 
 "
 
 " Settings in this file may depend on plugins, so let's install them first.
@@ -71,7 +71,6 @@ set sidescrolloff=10  " Leave 10 characters of horizontal buffer when scrolling
 " set contrast for colorscheme gruvbox
 let g:gruvbox_contrast_dark='hard'
 colorscheme gruvbox
-"set background=dark
 set termguicolors
 
 " Showcase comments in italics

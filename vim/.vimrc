@@ -5,6 +5,10 @@
 " Settings in this file may depend on plugins, so let's install them first.
 " Not to be confused with the contents of ~/.vim/plugin/* which are
 " configuration options for each plugin and automatically loaded by Vim.
+
+scriptencoding utf-8
+set encoding=utf-8
+
 source ~/.vim/plugin/plugins.vim
 
 " Leader Mappings
@@ -71,7 +75,8 @@ set sidescrolloff=10  " Leave 10 characters of horizontal buffer when scrolling
 " set contrast for colorscheme gruvbox
 let g:gruvbox_contrast_dark='hard'
 colorscheme gruvbox
-set termguicolors
+set background=dark
+"set termguicolors
 
 " Showcase comments in italics
 "highlight Comment cterm=italic gui=italic

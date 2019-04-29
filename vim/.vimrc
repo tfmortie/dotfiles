@@ -74,6 +74,7 @@ set sidescrolloff=10  " Leave 10 characters of horizontal buffer when scrolling
 " colorscheme solarized
 " set contrast for colorscheme gruvbox
 let g:gruvbox_contrast_dark='hard'
+let g:airline_theme = 'gruvbox'
 colorscheme gruvbox
 set background=dark
 "set termguicolors
@@ -127,3 +128,9 @@ map <C-t><right> :tabn<cr>
 " allow constant backspace in insert mode
 set backspace=indent,eol,start
 
+if &term =~ '256color'
+    " disable Background Color Erase (BCE) so that color schemes
+    " render properly when inside 256-color tmux and GNU screen.
+    " see also http://snk.tuxfamily.org/log/vim-256color-bce.html
+  set t_ut=
+endif

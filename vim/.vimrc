@@ -21,6 +21,13 @@ map <Leader>gs :Gstatus<CR>
 nnoremap <C-p> :Files<Cr>
 
 syntax on
+" Plugins go here
+call plug#begin()
+  Plug 'scrooloose/nerdtree'
+  Plug 'morhetz/gruvbox'
+  Plug 'vim-airline/vim-airline'
+call plug#end()
+
 autocmd Filetype scss if getfsize(@%) > 300 | setlocal syntax=OFF | endif
 
 

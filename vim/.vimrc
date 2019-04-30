@@ -75,7 +75,11 @@ set sidescrolloff=10  " Leave 10 characters of horizontal buffer when scrolling
 " set contrast for colorscheme gruvbox
 let g:gruvbox_contrast_dark='hard'
 let g:airline_theme = 'gruvbox'
-colorscheme gruvbox
+if $TERM == "xterm"
+   colorscheme default
+else
+   colorscheme gruvbox " or any custom color-scheme that you use
+endif
 set background=dark
 "set termguicolors
 

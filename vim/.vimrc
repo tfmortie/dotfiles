@@ -2,10 +2,6 @@
 " VIM settings 
 "
 
-" Settings in this file may depend on plugins, so let's install them first.
-" Not to be confused with the contents of ~/.vim/plugin/* which are
-" configuration options for each plugin and automatically loaded by Vim.
-
 scriptencoding utf-8
 set encoding=utf-8
 
@@ -17,10 +13,8 @@ map <Leader>w :update<CR>
 map <Leader>q :qall<CR>
 map <Leader>gs :Gstatus<CR>
 
-" CtrlP use FZF (faster!)
-nnoremap <C-p> :Files<Cr>
-
 syntax on
+
 " Plugins go here
 call plug#begin()
   Plug 'scrooloose/nerdtree'
@@ -29,7 +23,6 @@ call plug#begin()
 call plug#end()
 
 autocmd Filetype scss if getfsize(@%) > 300 | setlocal syntax=OFF | endif
-
 
 set autoread                          " Auto reload changed files
 set wildmenu                          " Tab autocomplete in command mode
@@ -125,6 +118,9 @@ endif
 "-----------------------------------------------------------------------------
 " User settings
 "-----------------------------------------------------------------------------
+
+" binding for NERDTree
+map <C-p> :NERDTree<cr>   
 
 " additional bindings for tabs
 map <C-t><up> :tabr<cr>

@@ -5,6 +5,7 @@
 scriptencoding utf-8
 set encoding=utf-8
 
+" Plug-in management goes here
 source ~/.vim/plugin/plugins.vim
 
 " Leader Mappings
@@ -14,13 +15,6 @@ map <Leader>q :qall<CR>
 map <Leader>gs :Gstatus<CR>
 
 syntax on
-
-" Plugins go here
-call plug#begin()
-  Plug 'scrooloose/nerdtree'
-  Plug 'morhetz/gruvbox'
-  Plug 'vim-airline/vim-airline'
-call plug#end()
 
 autocmd Filetype scss if getfsize(@%) > 300 | setlocal syntax=OFF | endif
 
@@ -75,13 +69,9 @@ set sidescrolloff=10  " Leave 10 characters of horizontal buffer when scrolling
 " set contrast for colorscheme gruvbox
 let g:gruvbox_contrast_dark='hard'
 let g:airline_theme = 'gruvbox'
-if $TERM == "xterm"
-   colorscheme default
-else
-   colorscheme gruvbox " or any custom color-scheme that you use
-endif
+colorscheme gruvbox " or any custom color-scheme that you use
 set background=dark
-"set termguicolors
+set termguicolors
 
 " Showcase comments in italics
 "highlight Comment cterm=italic gui=italic

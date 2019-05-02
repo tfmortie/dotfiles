@@ -2,7 +2,6 @@ call plug#begin('~/.vim/plugged')
 
   " Addons
   Plug 'scrooloose/nerdtree'
-  Plug 'yegappan/mru'
   Plug 'alvan/vim-closetag'
   Plug 'vim-scripts/vim-auto-save'
   Plug 'airblade/vim-gitgutter'

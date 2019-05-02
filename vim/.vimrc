@@ -75,6 +75,9 @@ let g:airline_theme = "dark"
 let g:airline#extensions#cursormode#enabled = 0
 colorscheme gruvbox " or any custom color-scheme that you use
 set background=dark
+" set some options for airline
+set laststatus=2
+set ttimeoutlen=50
 "set termguicolors
 
 " Showcase comments in italics

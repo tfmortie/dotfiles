@@ -59,8 +59,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'altercation/vim-colors-solarized'
   Plug 'icymind/NeoSolarized'
   Plug 'morhetz/gruvbox'
-  Plug 'vim-airline/vim-airline'
-  
+
   " Testing
   Plug 'janko-m/vim-test'
 

@@ -132,11 +132,3 @@ if &term =~ '256color'
     " see also http://snk.tuxfamily.org/log/vim-256color-bce.html
   set t_ut=
 endif
-
-" change cursor color depending on mode
-
-if &term =~ "xterm"
-  let &t_SI = "\<Esc>]12;green\x7"
-  let &t_SR = "\<Esc>]12;red\x7"
-  let &t_EI = "\<Esc>]12;blue\x7"
-endif

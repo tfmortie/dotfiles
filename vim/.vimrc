@@ -60,6 +60,7 @@ set wildignore+=*/node_modules/
 set number            " Enable line numbers
 set scrolloff=5       " Leave 5 lines of buffer when scrolling
 set sidescrolloff=10  " Leave 10 characters of horizontal buffer when scrolling
+set cursorline
 
 "-------------------------------------------------------------------------------
 " Colors & Formatting
@@ -71,7 +72,7 @@ let g:gruvbox_contrast_dark='hard'
 let g:airline_theme = 'gruvbox'
 colorscheme gruvbox " or any custom color-scheme that you use
 set background=dark
-set termguicolors
+"set termguicolors
 
 " Showcase comments in italics
 "highlight Comment cterm=italic gui=italic
@@ -130,4 +131,12 @@ if &term =~ '256color'
     " render properly when inside 256-color tmux and GNU screen.
     " see also http://snk.tuxfamily.org/log/vim-256color-bce.html
   set t_ut=
+endif
+
+" change cursor color depending on mode
+
+if &term =~ "xterm"
+  let &t_SI = "\<Esc>]12;green\x7"
+  let &t_SR = "\<Esc>]12;red\x7"
+  let &t_EI = "\<Esc>]12;blue\x7"
 endif

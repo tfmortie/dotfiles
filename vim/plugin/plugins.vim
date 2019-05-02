@@ -22,6 +22,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'jlanzarotta/bufexplorer'
   Plug 'jeffkreeftmeijer/vim-numbertoggle'
   Plug 'roman/golden-ratio'
+  Plug 'vim-airline/vim-airline'
 
   " Tmux integration
   Plug 'benmills/vimux'

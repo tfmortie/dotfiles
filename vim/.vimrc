@@ -115,7 +115,10 @@ endif
 "-----------------------------------------------------------------------------
 
 " binding for NERDTree
-map <C-p> :NERDTree<cr>   
+nnoremap <C-g> :NERDTree<CR>
+
+" binding for CtrlP
+map <C-p> :NERDTree<cr>
 
 " additional bindings for tabs
 map <C-t><up> :tabr<cr>

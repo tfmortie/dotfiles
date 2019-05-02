@@ -69,7 +69,10 @@ set cursorline
 " colorscheme solarized
 " set contrast for colorscheme gruvbox
 let g:gruvbox_contrast_dark='hard'
-let g:airline_theme = "wombat"
+let g:airline_theme = "gruvbox"
+
+" disable cursor color which comes with airline
+let g:airline#extensions#cursormode#enabled = 0
 colorscheme gruvbox " or any custom color-scheme that you use
 set background=dark
 "set termguicolors

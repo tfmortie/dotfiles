@@ -69,7 +69,7 @@ set cursorline
 " colorscheme solarized
 " set contrast for colorscheme gruvbox
 let g:gruvbox_contrast_dark='hard'
-let g:airline_theme = "dark"
+let g:airline_theme = "gruvbox"
 
 " disable cursor color which comes with airline
 let g:airline#extensions#cursormode#enabled = 0

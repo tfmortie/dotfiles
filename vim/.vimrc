@@ -4,7 +4,7 @@
 syntax on
 " show line numbers
 set number
-" show current line number, etc.
+" " show current line number, etc.
 set ruler
 " encoding
 set encoding=utf-8
@@ -15,3 +15,4 @@ set showcmd
 "
 set termguicolors
 colorscheme peachpuff
+

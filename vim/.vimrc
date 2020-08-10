@@ -20,5 +20,6 @@ set backspace=indent,eol,start
 " show command history
 set showcmd
 
-" comments are green
+" set background and put comments in green
+set background=dark
 highlight Comment ctermfg=green

@@ -618,11 +618,11 @@
     "Green Component" : 0.95435396072311007
   },
   "Background Color" : {
-    "Red Component" : 0.14901961386203766,
+    "Red Component" : 0,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.14901961386203766,
+    "Blue Component" : 0,
     "Alpha Component" : 1,
-    "Green Component" : 0.14901961386203766
+    "Green Component" : 0
   },
   "Character Encoding" : 4,
   "Ansi 11 Color" : {
@@ -917,7 +917,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.89411765336990356
   },
-  "Transparency" : 0.15286722715736042,
+  "Transparency" : 0.18772009835025383,
   "Ansi 1 Color" : {
     "Red Component" : 1,
     "Color Space" : "sRGB",

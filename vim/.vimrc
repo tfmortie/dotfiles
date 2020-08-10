@@ -6,8 +6,7 @@
 syntax on
 
 " TAB -> 4 spaces (identation)
-set tabstop=4 shiftwidth=4 expandtab
-set ai
+set tabstop=4 shiftwidth=4 expandtab ai
 
 " highlight search matches
 set hlsearch

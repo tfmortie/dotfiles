@@ -24,3 +24,6 @@ set showcmd
 " set background and put comments in green
 set background=dark
 highlight Comment ctermfg=green
+
+" enable mouse in case of emergency 
+set mouse=a

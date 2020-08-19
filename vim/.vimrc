@@ -27,3 +27,7 @@ highlight Comment ctermfg=green
 
 " enable mouse in case of emergency 
 set mouse=a
+
+" set mapping for tabs
+map <C-n> :bn<cr>
+map <C-p> :bp<cr>

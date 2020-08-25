@@ -32,12 +32,9 @@ set mouse=a
 map <C-n> :bn<cr>
 map <C-p> :bp<cr>
 
-" highlight current line
+" highlight current line (left)
 set cursorline
 hi cursorline cterm=none term=none
-autocmd WinEnter * setlocal cursorline
-autocmd WinLeave * setlocal nocursorline
-highlight CursorLine guibg=#303000 ctermbg=235
 
 " set relative numbers 
 set relativenumber

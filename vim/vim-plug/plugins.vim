@@ -9,4 +9,6 @@ endif
 call plug#begin('~/.vim/autoload/plugged')
     " airline statusline
     Plug 'vim-airline/vim-airline'
+    " NERDTree file explorer
+    Plug 'scrooloose/nerdtree'
 call plug#end()

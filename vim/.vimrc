@@ -38,3 +38,6 @@ hi cursorline cterm=none term=none
 
 " set relative numbers 
 set relativenumber
+
+" set mapping for NERDTree
+map <C-l> :NERDTree<cr>

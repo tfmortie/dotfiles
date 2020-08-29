@@ -1,6 +1,6 @@
 "
 " VIM settings
-"
+" 
 
 " set colorscheme + syntax highlighting
 colo peachpuff

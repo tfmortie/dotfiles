@@ -6,7 +6,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 " add plugins below
-call plug#begin('~/.config/nvim/autoload/plugged')
+call plug#begin('~/.vim/autoload/plugged')
     " airline statusline
     Plug 'vim-airline/vim-airline'
 call plug#end()

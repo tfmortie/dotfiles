@@ -11,4 +11,6 @@ call plug#begin('~/.vim/autoload/plugged')
     Plug 'vim-airline/vim-airline'
     " NERDTree file explorer
     Plug 'scrooloose/nerdtree'
+    " Quickscope
+    Plug 'unblevable/quick-scope'
 call plug#end()

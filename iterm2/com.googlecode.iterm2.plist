@@ -1312,7 +1312,7 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1075 124 445 418 0 0 1920 1057 </string>
 	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>419 417 841 470 0 0 1680 1027 </string>
+	<string>539 440 841 470 0 0 1920 1057 </string>
 	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
 	<string>652 662 616 174 0 0 1920 1057 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
@@ -1320,11 +1320,11 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>231 222 928 394 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>840 0 953 1027 0 0 1680 1027 </string>
+	<string>840 0 838 1027 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1144 335 585 442 0 0 1920 1057 </string>
+	<string>0 0 1920 1057 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>144 499 739 426 0 0 1680 1027 </string>
+	<string>1296 -78 585 442 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>265 502 585 442 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
@@ -2132,7 +2132,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>MesloLGSDZForPowerline-Bold 12</string>
+			<string>MesloLGSDZForPowerline-Bold 16</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Option Key Sends</key>
@@ -3818,7 +3818,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>AF92EF29-F3D6-4972-BA39-2D4A1BD68245</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>44</integer>
+	<integer>50</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -4598,13 +4598,15 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-08-17T09:53:52Z</date>
+	<date>2020-09-03T19:48:07Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
 	<false/>
+	<key>Size Changes Affect Profile</key>
+	<true/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>StatusBarPosition</key>

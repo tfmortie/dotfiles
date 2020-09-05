@@ -41,3 +41,6 @@ set relativenumber
 
 " set mapping for NERDTree
 map <C-l> :NERDTree<cr>
+
+" allow find to work in subfolders
+set path+=**

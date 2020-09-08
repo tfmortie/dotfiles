@@ -2,7 +2,8 @@
 " VIM settings
 
 " set colorscheme + syntax highlighting
-colo peachpuff
+" colo peachpuff
+colo default
 syntax on
 
 " TAB -> 4 spaces (identation)

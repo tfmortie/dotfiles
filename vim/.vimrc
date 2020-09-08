@@ -1,7 +1,6 @@
 "
 " VIM settings
 
-
 " set colorscheme + syntax highlighting
 colo peachpuff
 syntax on
@@ -47,7 +46,7 @@ hi cursorline cterm=none term=none
 set relativenumber
 
 " set mapping for NERDTree
-map <C-b> :NERDTree<cr>
+map <C-a> :NERDTree<cr>
 
 " allow find to work in subfolders
 set path+=**

@@ -28,9 +28,16 @@ highlight Comment ctermfg=green
 " enable mouse in case of emergency 
 set mouse=a
 
-" set mapping for tabs
+" set mapping for buffers
 map <C-n> :bn<cr>
 map <C-p> :bp<cr>
+map <C-x> :bd<cr>
+
+" set mapping for windows
+nmap <C-h> <C-w>h
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
 
 " highlight current line (left)
 set cursorline
@@ -40,7 +47,7 @@ hi cursorline cterm=none term=none
 set relativenumber
 
 " set mapping for NERDTree
-map <C-l> :NERDTree<cr>
+map <C-b> :NERDTree<cr>
 
 " allow find to work in subfolders
 set path+=**

@@ -1,10 +1,39 @@
 "
 " VIM settings
 
-" set colorscheme + syntax highlighting
-" colo peachpuff
-colo default
+" auto-install vim-plug
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall | source ~/.vim/.vimrc
+endif
+
+" add plugins below
+call plug#begin('~/.vim/autoload/plugged')
+    " airline statusline
+    Plug 'vim-airline/vim-airline'
+    " airline themes
+    Plug 'vim-airline/vim-airline-themes'
+    " NERDTree file explorer
+    Plug 'scrooloose/nerdtree'
+    " Quickscope
+    Plug 'unblevable/quick-scope'
+    " NeoSolarized
+    Plug 'overcache/NeoSolarized'
+call plug#end()
+
+" set colorscheme for vim and airline 
+" colo default
+set termguicolors
+colo NeoSolarized
+let g:airline_theme='solarized'
+
+" syntax highlight
 syntax on
+
+" set background and put comments in green
+set background=dark
+" highlight Comment ctermfg=green  (use this for default)
 
 " TAB -> 4 spaces (identation)
 set tabstop=4 shiftwidth=4 expandtab ai
@@ -20,10 +49,6 @@ set backspace=indent,eol,start
 
 " show command history
 set showcmd
-
-" set background and put comments in green
-set background=dark
-highlight Comment ctermfg=green
 
 " enable mouse in case of emergency 
 set mouse=a

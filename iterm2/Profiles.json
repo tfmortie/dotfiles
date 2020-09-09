@@ -105,11 +105,11 @@
   "Smart Cursor Color" : true,
   "Screen" : -1,
   "Selection Color" : {
-    "Red Component" : 0.5142822265625,
+    "Red Component" : 0.49803921568627452,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.5142822265625,
+    "Blue Component" : 0.49803921568627452,
     "Alpha Component" : 1,
-    "Green Component" : 0.5142822265625
+    "Green Component" : 0.49803921568627452
   },
   "Only The Default BG Color Uses Transparency" : false,
   "Columns" : 80,
@@ -123,7 +123,7 @@
   },
   "Custom Command" : "No",
   "ASCII Anti Aliased" : true,
-  "Non Ascii Font" : "Monaco 12",
+  "Non Ascii Font" : "Monaco 10",
   "Vertical Spacing" : 1,
   "Use Bold Font" : true,
   "Option Key Sends" : 0,
@@ -434,7 +434,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.89411764705882357
   },
-  "Transparency" : 0.26984652601522841,
+  "Transparency" : 0.084428537436548226,
   "Ansi 1 Color" : {
     "Red Component" : 1,
     "Color Space" : "sRGB",
@@ -478,7 +478,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.37254902720451355
   },
-  "Normal Font" : "MesloLGSDZForPowerline-Bold 16",
+  "Normal Font" : "MesloLGSDZForPowerline-Bold 14",
   "Custom Directory" : "No",
   "Ansi 0 Color" : {
     "Red Component" : 0.14901961386203766,

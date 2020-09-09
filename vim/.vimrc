@@ -20,12 +20,17 @@ call plug#begin('~/.vim/autoload/plugged')
     Plug 'unblevable/quick-scope'
     " NeoSolarized
     Plug 'overcache/NeoSolarized'
+    " Gruvbox
+    Plug 'morhetz/gruvbox'
 call plug#end()
 
 " set colorscheme for vim and airline 
 set termguicolors
-colo NeoSolarized
-let g:airline_theme='solarized'
+"colo NeoSolarized
+"let g:airline_theme='solarized'
+colo gruvbox
+let g:airline_theme='gruvbox'
+let g:gruvbox_contrast_dark='dark'
 
 " syntax highlight
 syntax on

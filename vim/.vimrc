@@ -23,7 +23,6 @@ call plug#begin('~/.vim/autoload/plugged')
 call plug#end()
 
 " set colorscheme for vim and airline 
-" colo default
 set termguicolors
 colo NeoSolarized
 let g:airline_theme='solarized'
@@ -33,7 +32,6 @@ syntax on
 
 " set background and put comments in green
 set background=dark
-" highlight Comment ctermfg=green  (use this for default)
 
 " TAB -> 4 spaces (identation)
 set tabstop=4 shiftwidth=4 expandtab ai

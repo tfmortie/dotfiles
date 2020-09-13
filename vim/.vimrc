@@ -26,6 +26,14 @@ call plug#end()
 
 " set colorscheme for vim and airline 
 set termguicolors
+
+" set colors for quickscope after colorscheme change
+augroup qs_colors
+  autocmd!
+  autocmd ColorScheme * highlight QuickScopePrimary guifg='#34ed00' gui=underline ctermfg=155 cterm=underline
+  autocmd ColorScheme * highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
+augroup END
+
 "colo NeoSolarized
 "let g:airline_theme='solarized'
 colo gruvbox

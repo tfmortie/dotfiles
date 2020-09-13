@@ -428,11 +428,11 @@
   "Minimum Contrast" : 0,
   "Shortcut" : "D",
   "Cursor Color" : {
-    "Red Component" : 0.64313725490196083,
+    "Red Component" : 0.039215686274509803,
     "Color Space" : "sRGB",
-    "Blue Component" : 0,
+    "Blue Component" : 1,
     "Alpha Component" : 1,
-    "Green Component" : 0.89411764705882357
+    "Green Component" : 0.51764705882352946
   },
   "Transparency" : 0.084428537436548226,
   "Ansi 1 Color" : {

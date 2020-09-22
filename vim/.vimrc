@@ -87,4 +87,3 @@ set path+=**
 
 " set mappings for coc-explorer
 nmap <space>f :CocCommand explorer<CR>
-autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif

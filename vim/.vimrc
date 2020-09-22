@@ -22,6 +22,8 @@ call plug#begin('~/.vim/autoload/plugged')
     Plug 'overcache/NeoSolarized'
     " Gruvbox
     Plug 'morhetz/gruvbox'
+    " Intellisense
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 " set colorscheme for vim and airline 

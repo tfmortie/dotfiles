@@ -14,8 +14,6 @@ call plug#begin('~/.vim/autoload/plugged')
     Plug 'vim-airline/vim-airline'
     " airline themes
     Plug 'vim-airline/vim-airline-themes'
-    " NERDTree file explorer
-    Plug 'scrooloose/nerdtree'
     " Quickscope
     Plug 'unblevable/quick-scope'
     " NeoSolarized
@@ -84,8 +82,9 @@ hi cursorline cterm=none term=none
 " set relative numbers 
 set relativenumber
 
-" set mapping for NERDTree
-map <C-a> :NERDTree<cr>
-
 " allow find to work in subfolders
 set path+=**
+
+" set mappings for coc-explorer
+nmap <space>f :CocCommand explorer<CR>
+autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif

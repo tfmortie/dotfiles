@@ -86,4 +86,4 @@ set relativenumber
 set path+=**
 
 " set toggle for highlights
-nnoremap <C-m> :set hlsearch!<cr>
+nnoremap <C-m> :noh<cr>

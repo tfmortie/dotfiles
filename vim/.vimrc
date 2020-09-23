@@ -84,6 +84,3 @@ set relativenumber
 
 " allow find to work in subfolders
 set path+=**
-
-" set mappings for coc-explorer
-nmap <space>f :CocCommand explorer<CR>

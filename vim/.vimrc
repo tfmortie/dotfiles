@@ -84,3 +84,6 @@ set relativenumber
 
 " allow find to work in subfolders
 set path+=**
+
+" set toggle for highlights
+nnoremap <C-m> :set hlsearch!<cr>

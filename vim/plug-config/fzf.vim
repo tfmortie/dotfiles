@@ -5,7 +5,7 @@ nmap <space>f :Files<CR>
 nmap <space>b :Buffers<CR>
 
 " Set mapping for lines
-nmap <space>l :Lines<CR>
+nmap <space>m :Lines<CR>
 
-" Set mapping for buffer lines
-nmap <space>m :BLines<CR>
+" Set mapping for (current) buffer lines
+nmap <space>l :BLines<CR>

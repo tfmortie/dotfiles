@@ -22,6 +22,9 @@ call plug#begin('~/.vim/autoload/plugged')
     Plug 'morhetz/gruvbox'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    " Fzf
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
 call plug#end()
 
 " set colorscheme for vim and airline 

@@ -90,3 +90,7 @@ set path+=**
 
 " set toggle for highlights
 nnoremap <C-m> :noh<cr>
+
+" set toggle for dark/light background
+nnoremap ;d :set background=dark<cr>
+nnoremap ;l :set background=light<cr>

@@ -25,6 +25,8 @@ call plug#begin('~/.vim/autoload/plugged')
     " Fzf
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
+    " Vimwiki
+    Plug 'vimwiki/vimwiki'
 call plug#end()
 
 " set colorscheme for vim and airline 
@@ -94,3 +96,7 @@ nnoremap <C-m> :noh<cr>
 " set toggle for dark/light background
 nnoremap ;d :set background=dark<cr>
 nnoremap ;l :set background=light<cr>
+
+" some settings for vimwiki
+set nocompatible
+filetype plugin on

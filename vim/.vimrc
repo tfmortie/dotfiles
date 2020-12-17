@@ -39,11 +39,14 @@ augroup qs_colors
   autocmd ColorScheme * highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
 augroup END
 
-"colo NeoSolarized
-"let g:airline_theme='solarized'
-colo gruvbox
-let g:airline_theme='gruvbox'
-let g:gruvbox_contrast_dark='dark'
+"colo peachpuff
+
+colo NeoSolarized
+let g:airline_theme='solarized'
+
+"colo gruvbox
+"let g:airline_theme='gruvbox'
+"let g:gruvbox_contrast_dark='dark'
 
 " syntax highlight
 syntax on

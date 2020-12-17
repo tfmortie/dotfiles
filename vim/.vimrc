@@ -41,12 +41,12 @@ augroup END
 
 "colo peachpuff
 
-colo NeoSolarized
-let g:airline_theme='solarized'
+"colo NeoSolarized
+"let g:airline_theme='solarized'
 
-"colo gruvbox
-"let g:airline_theme='gruvbox'
-"let g:gruvbox_contrast_dark='dark'
+colo gruvbox
+let g:airline_theme='gruvbox'
+let g:gruvbox_contrast_dark='dark'
 
 " syntax highlight
 syntax on

@@ -100,6 +100,9 @@ nnoremap <C-m> :noh<cr>
 nnoremap ;d :set background=dark<cr>
 nnoremap ;l :set background=light<cr>
 
+" shortcut for LaTeX compilation
+nnoremap ;c :!pdflatex %;open %<cr>
+
 " some settings for vimwiki
 set nocompatible
 filetype plugin on

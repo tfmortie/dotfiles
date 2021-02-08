@@ -102,7 +102,7 @@ nnoremap ;l :set background=light<cr>
 
 " shortcut for LaTeX compilation
 nnoremap ;c :!pdflatex %;open %<cr>
-nnoremap ;c :!pdflatex %;open %:t:r.pdf<cr>
+nnoremap ;c :!pdflatex %;open %:t:r.pdf;rm *.aux *.log *.nav *.out *.snm *.toc<cr>
 
 " some settings for vimwiki
 set nocompatible

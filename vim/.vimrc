@@ -100,9 +100,9 @@ nnoremap <C-m> :noh<cr>
 nnoremap ;d :set background=dark<cr>
 nnoremap ;l :set background=light<cr>
 
-" shortcut for LaTeX compilation
-nnoremap ;c :!pdflatex %;open %<cr>
-nnoremap ;c :!pdflatex %;open %:t:r.pdf;rm *.aux *.log *.nav *.out *.snm *.toc<cr>
+" commands for LaTeX and beamer compilation
+command CompileBeamer !pdflatex --shell-escape %;pdflatex --shell-escape %;open %:t:r.pdf;rm *.aux *.log *.nav *.out *.snm *.toc<cr>
+command CompileLatex !pdflatex %:t:r.tex;bibtex %:t:r.aux;pdflatex %:t:r.tex;pdflatex %:t:r.tex;open %:t:r.pdf;rm *.blg *.bbl *.aux *.log
 
 " some settings for vimwiki
 set nocompatible

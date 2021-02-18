@@ -96,9 +96,9 @@ set path+=**
 " set toggle for highlights
 nnoremap <C-m> :noh<cr>
 
-" set toggle for dark/light background
-nnoremap ;d :set background=dark<cr>
-nnoremap ;l :set background=light<cr>
+" commands for dark/light background
+command Blight normal! :set background=light<cr>
+command Bdark normal! :set background=dark<cr>
 
 " commands for LaTeX and beamer compilation
 command CompileBeamer !pdflatex --shell-escape %;pdflatex --shell-escape %;open %:t:r.pdf;rm *.aux *.log *.nav *.out *.snm *.toc<cr>

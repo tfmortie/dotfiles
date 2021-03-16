@@ -2043,11 +2043,11 @@
 			<key>Name</key>
 			<string>Dark</string>
 			<key>Non Ascii Font</key>
-			<string>Monaco 11</string>
+			<string>Monaco 10</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>MesloLGSDZForPowerline-Bold 13</string>
+			<string>MesloLGSDZForPowerline-Bold 12</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Option Key Sends</key>
@@ -3731,8 +3731,6 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
-	<key>PreventEscapeSequenceFromClearingHistory</key>
-	<false/>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>ShowFullScreenTabBar</key>

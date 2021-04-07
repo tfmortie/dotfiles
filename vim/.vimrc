@@ -97,12 +97,12 @@ set path+=**
 nnoremap <C-m> :noh<cr>
 
 " commands for dark/light background
-command Blight normal! :set background=light<cr>
-command Bdark normal! :set background=dark<cr>
+command BL normal! :set background=light<cr>
+command BD normal! :set background=dark<cr>
 
 " commands for LaTeX and beamer compilation
-command CompileBeamer !pdflatex --shell-escape %;pdflatex --shell-escape %;open %:t:r.pdf;rm *.aux *.log *.nav *.out *.snm *.toc
-command CompileLatex !pdflatex %:t:r.tex;bibtex %:t:r.aux;pdflatex %:t:r.tex;pdflatex %:t:r.tex;open %:t:r.pdf;rm *.blg *.bbl *.aux *.log
+command CB !pdflatex --shell-escape %;pdflatex --shell-escape %;open %:t:r.pdf;rm *.aux *.log *.nav *.out *.snm *.toc
+command CL !pdflatex %:t:r.tex;bibtex %:t:r.aux;pdflatex %:t:r.tex;pdflatex %:t:r.tex;open %:t:r.pdf;rm *.blg *.bbl *.aux *.log
 
 " some settings for vimwiki
 set nocompatible

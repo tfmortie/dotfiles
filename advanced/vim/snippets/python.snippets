@@ -1,0 +1,8 @@
+" Fast variable printing (Python 3.8)
+nnoremap ,pprint <S-i>print(f'{<Esc><S-a>=}')<Esc>
+
+" Create function 
+nnoremap ,pfun <S-i>def <Esc><S-a>(args):<cr>    print("Not implemented yet!")<cr><Esc>
+
+" Main scope check
+nnoremap ,pmain iif __name__ == "__main__":<cr> main()<cr><Esc>

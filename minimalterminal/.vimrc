@@ -15,6 +15,7 @@ highlight Comment ctermfg=green
 "
 " User-specific settings
 " 
+set ls=2
 set path+=** " allow find to work in subfolders
 "
 " Mappings

@@ -22,7 +22,7 @@ set path+=** " allow find to work in subfolders
 set wildmenu " display all matching files when we tab complete
 set cursorline " make sure that our current line is highlighted
 " customize cursorline
-hi CursorLine cterm=NONE ctermbg=black ctermfg=white 
+hi CursorLine cterm=NONE ctermbg=236 ctermfg=white 
 
 "
 " Mappings

@@ -1,5 +1,5 @@
 "
-" Minimal settings
+" MINIMAL SETTINGS
 "
 
 syntax on
@@ -15,7 +15,7 @@ colorscheme peachpuff
 highlight Comment ctermfg=green
 
 "
-" User-specific settings
+" USER-SPECIFIC SETTINGS
 " 
 
 set path+=** " allow find to work in subfolders
@@ -25,7 +25,7 @@ set cursorline " make sure that our current line is highlighted
 hi CursorLine cterm=NONE ctermbg=236 ctermfg=white 
 
 "
-" Mappings
+" MAPPINGS
 "
 
 " remove highlights
@@ -43,9 +43,17 @@ nmap <C-l> <C-w>l
 nmap <C-h> :set cursorline!<CR>
 
 "
-" Commands
+" COMMANDS
 "
 
 command CB !pdflatex --shell-escape %;pdflatex --shell-escape %;open %:t:r.pdf;rm *.aux *.log *.nav *.out *.snm *.toc 
 command CL !pdflatex %:t:r.tex;bibtex %:t:r.aux;pdflatex %:t:r.tex;pdflatex %:t:r.tex;open %:t:r.pdf;rm *.blg *.bbl *.aux *.log
 command MT !ctags -R .
+
+"
+" SNIPPETS
+"
+
+" Python
+" fast variable printing (requires Python >=3.8)
+nnoremap ,pprint <S-i>print(f'{<Esc><S-a>=}')<Esc>

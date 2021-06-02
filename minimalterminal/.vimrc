@@ -21,6 +21,7 @@ highlight Comment ctermfg=green
 set path+=** " allow find to work in subfolders
 set wildmenu " display all matching files when we tab complete
 set cursorline " make sure that our current line is highlighted
+set ls=2 " make sure we always have the name of current buffer in status line
 " customize cursorline
 hi CursorLine cterm=NONE ctermbg=236 ctermfg=white 
 
@@ -40,7 +41,7 @@ nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
 " turn on/off cursorline
-nmap <C-h> :set cursorline!<CR>
+nmap <C-c> :set cursorline!<CR>
 
 "
 " COMMANDS

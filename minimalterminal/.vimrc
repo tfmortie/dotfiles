@@ -24,6 +24,8 @@ set cursorline " make sure that our current line is highlighted
 set ls=2 " make sure we always have the name of current buffer in status line
 " customize cursorline
 hi CursorLine cterm=NONE ctermbg=236 ctermfg=white 
+set incsearch " incremental search
+set scrolloff=8 
 
 "
 " MAPPINGS

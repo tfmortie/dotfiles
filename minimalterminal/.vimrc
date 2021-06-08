@@ -3,12 +3,9 @@
 "
 
 syntax on
-set tabstop=4
-set shiftwidth=4
-set expandtab
+set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
 set ai
-set relativenumber
-set number
+set relativenumber number
 set hlsearch
 set ruler
 colorscheme peachpuff

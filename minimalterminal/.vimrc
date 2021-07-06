@@ -23,6 +23,7 @@ set ls=2 " make sure we always have the name of current buffer in status line
 hi CursorLine cterm=NONE ctermbg=236 ctermfg=white 
 set incsearch " incremental search
 set scrolloff=8 
+set mouse=a " enable mouse scrolling, and other mouse functions
 
 "
 " MAPPINGS

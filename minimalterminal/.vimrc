@@ -1,26 +1,22 @@
 "
 " MINIMAL SETTINGS
 "
-
+set encoding=utf-8
 syntax on
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
 set ai
 set relativenumber number
 set hlsearch
 set ruler
-colorscheme peachpuff
-highlight Comment ctermfg=green
 
 "
 " USER-SPECIFIC SETTINGS
-" 
+"
 
 set path+=** " allow find to work in subfolders
 set wildmenu " display all matching files when we tab complete
 set cursorline " make sure that our current line is highlighted
 set ls=2 " make sure we always have the name of current buffer in status line
-" customize cursorline
-hi CursorLine cterm=NONE ctermbg=236 ctermfg=white 
 set incsearch " incremental search
 set scrolloff=8 
 set mouse=a " enable mouse scrolling, and other mouse functions
@@ -58,3 +54,29 @@ command MT !ctags -R .
 " Python
 " fast variable printing (requires Python >=3.8)
 nnoremap ,pprint <S-i>print(f'{<Esc><S-a>=}')<Esc>
+
+"
+" PLUGINS
+"
+
+call plug#begin('~/.vim/plugged')
+Plug 'rakr/vim-one'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+call plug#end()
+
+" 
+" COLORSCHEME
+"
+
+" settings for airline
+let g:airline#extensions#tabline#enabled = 1 " show tabs/buffers on top
+let g:airline_theme='one' " theme for airline
+let g:airline_section_z = airline#section#create(['%3p%%', 'linenr', 'maxlinenr']) " format statusline section Z
+
+" set color scheme and background color
+colorscheme one
+set background=dark
+
+" make sure that our current line is highlighted
+hi CursorLine cterm=NONE ctermbg=236

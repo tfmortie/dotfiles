@@ -60,7 +60,7 @@ nnoremap ,pprint <S-i>print(f'{<Esc><S-a>=}')<Esc>
 "
 
 call plug#begin('~/.vim/plugged')
-Plug 'rakr/vim-one'
+Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 call plug#end()
@@ -71,11 +71,11 @@ call plug#end()
 
 " settings for airline
 let g:airline#extensions#tabline#enabled = 1 " show tabs/buffers on top
-let g:airline_theme='one' " theme for airline
+let g:airline_theme='gruvbox' " theme for airline
 let g:airline_section_z = airline#section#create(['%3p%%', 'linenr', 'maxlinenr']) " format statusline section Z
 
 " set color scheme and background color
-colorscheme one
+colorscheme gruvbox
 set background=dark
 
 " make sure that our current line is highlighted

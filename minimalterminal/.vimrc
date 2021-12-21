@@ -65,7 +65,24 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 call plug#end()
+
+"
+" SETTINGS PLUGINS
+"
+" Set mapping for files
+nmap <space>f :Files<CR>
+
+" Set mapping for buffers
+nmap <space>b :Buffers<CR>
+
+" Set mapping for lines
+nmap <space>m :Lines<CR>
+
+" Set mapping for (current) buffer lines
+nmap <space>l :BLines<CR>
 
 " 
 " COLORSCHEME

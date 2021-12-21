@@ -54,6 +54,8 @@ command MT !ctags -R .
 " Python
 " fast variable printing (requires Python >=3.8)
 nnoremap ,pprint <S-i>print(f'{<Esc><S-a>=}')<Esc>
+" fast variable printing C++
+nnoremap ,cprint ^v$hyistd::cout << "<Esc>pa=" << <Esc><S-a> << std::endl;<Esc>
 
 "
 " PLUGINS

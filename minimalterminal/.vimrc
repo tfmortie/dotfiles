@@ -51,8 +51,7 @@ command MT !ctags -R .
 " SNIPPETS
 "
 
-" Python
-" fast variable printing (requires Python >=3.8)
+" fast variable printing Python >=3.8
 nnoremap ,pprint <S-i>print(f'{<Esc><S-a>=}')<Esc>
 " fast variable printing C++
 nnoremap ,cprint ^v$hyistd::cout << "<Esc>pa=" << <Esc><S-a> << std::endl;<Esc>
@@ -72,16 +71,14 @@ call plug#end()
 "
 " SETTINGS PLUGINS
 "
-" Set mapping for files
+
+" set mapping for files
 nmap <space>f :Files<CR>
-
-" Set mapping for buffers
+" set mapping for buffers
 nmap <space>b :Buffers<CR>
-
-" Set mapping for lines
+" set mapping for lines
 nmap <space>m :Lines<CR>
-
-" Set mapping for (current) buffer lines
+" set mapping for (current) buffer lines
 nmap <space>l :BLines<CR>
 
 " 
@@ -92,10 +89,8 @@ nmap <space>l :BLines<CR>
 let g:airline#extensions#tabline#enabled = 1 " show tabs/buffers on top
 let g:airline_theme='gruvbox' " theme for airline
 let g:airline_section_z = airline#section#create(['%3p%%', 'linenr', 'maxlinenr']) " format statusline section Z
-
 " set color scheme and background color
 colorscheme gruvbox
 set background=dark
-
 " make sure that our current line is highlighted
 hi CursorLine cterm=NONE ctermbg=236

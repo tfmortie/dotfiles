@@ -113,5 +113,4 @@ let g:airline_section_z = airline#section#create(['%3p%%', 'linenr', 'maxlinenr'
 set background=dark
 set termguicolors
 colorscheme NeoSolarized
-" make sure that our current line is highlighted
-"hi CursorLine cterm=NONE ctermbg=236
+hi Normal guibg=NONE ctermbg=NONE

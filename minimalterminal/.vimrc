@@ -62,6 +62,7 @@ nnoremap ,cprint ^v$hyistd::cout << "<Esc>pa=" << <Esc><S-a> << std::endl;<Esc>
 
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
+Plug 'overcache/NeoSolarized'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " fzf for vim
@@ -106,10 +107,11 @@ EOF
 
 " settings for airline
 let g:airline#extensions#tabline#enabled = 1 " show tabs/buffers on top
-let g:airline_theme='gruvbox' " theme for airline
+let g:airline_theme='solarized' " theme for airline
 let g:airline_section_z = airline#section#create(['%3p%%', 'linenr', 'maxlinenr']) " format statusline section Z
 " set color scheme and background color
-colorscheme gruvbox
 set background=dark
+set termguicolors
+colorscheme NeoSolarized
 " make sure that our current line is highlighted
 hi CursorLine cterm=NONE ctermbg=236

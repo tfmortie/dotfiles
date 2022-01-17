@@ -114,4 +114,4 @@ set background=dark
 set termguicolors
 colorscheme NeoSolarized
 " make sure that our current line is highlighted
-hi CursorLine cterm=NONE ctermbg=236
+"hi CursorLine cterm=NONE ctermbg=236

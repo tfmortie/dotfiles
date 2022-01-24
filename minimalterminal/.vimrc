@@ -107,10 +107,10 @@ EOF
 
 " settings for airline
 let g:airline#extensions#tabline#enabled = 1 " show tabs/buffers on top
-let g:airline_theme='solarized' " theme for airline
+let g:airline_theme='gruvbox' " theme for airline
 let g:airline_section_z = airline#section#create(['%3p%%', 'linenr', 'maxlinenr']) " format statusline section Z
 " set color scheme and background color
 set background=dark
 set termguicolors
-colorscheme NeoSolarized
+colorscheme gruvbox
 hi Normal guibg=NONE ctermbg=NONE

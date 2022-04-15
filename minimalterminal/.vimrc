@@ -20,6 +20,7 @@ set ls=2 " make sure we always have the name of current buffer in status line
 set incsearch " incremental search
 set scrolloff=8 
 set mouse=a " enable mouse scrolling, and other mouse functions
+set guicursor=a:blinkon100 " blinking cursor
 
 "
 " MAPPINGS

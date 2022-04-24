@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
-let g:netrw_dirhist_6='/Users/thomasmortier/Documents/CodeForces'
-let g:netrw_dirhist_5='/Users/thomasmortier/Documents/Github/dotfiles/vim'
-let g:netrw_dirhist_4='/Users/thomasmortier/Documents/temp'
-let g:netrw_dirhist_3='/Users/thomasmortier/Documents/Github/dotfiles'
-let g:netrw_dirhist_2='/Users/thomasmortier/Documents/Github/dotfiles/vim'
-let g:netrw_dirhist_1='/Users/thomasmortier/Documents/CodeForces'

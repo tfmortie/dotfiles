@@ -12,6 +12,5 @@ set ls=2
 set incsearch
 set scrolloff=8
 set mouse=a
-colorscheme peachpuff
 highlight Comment ctermfg=green
 hi CursorLine cterm=NONE ctermbg=236

@@ -1,3 +1,4 @@
+set backspace=indent,eol,start
 set encoding=utf-8
 syntax on
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
@@ -14,3 +15,4 @@ set scrolloff=8
 set mouse=a
 highlight Comment ctermfg=green
 hi CursorLine cterm=NONE ctermbg=236
+hi Normal guibg=NONE ctermbg=NONE
